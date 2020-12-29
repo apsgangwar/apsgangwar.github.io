@@ -1,0 +1,13 @@
+[
+  { "courseCode": "AE305", "courseName": "Flight Mechanics II" },
+  { "courseCode": "AE312", "courseName": "Aerodynamics Laboratory" },
+  { "courseCode": "AE316", "courseName": "Aircraft Propulsion Laboratory" },
+  { "courseCode": "AE320", "courseName": "Computational Fluid Dynamics" },
+  { "courseCode": "AE332", "courseName": "Aircraft Design" },
+  { "courseCode": "AE427", "courseName": "Control Systems Laboratory" },
+  {
+    "courseCode": "GNR652",
+    "courseName": "Machine Learning for Remote Sensing-I"
+  },
+  { "courseCode": "MG402", "courseName": "Human Resource Management" }
+]

@@ -1,0 +1,12 @@
+[
+  { "courseCode": "AE219", "courseName": "Supervised Learning" },
+  { "courseCode": "AE664", "courseName": "Lighter-Than-Air Systems" },
+  {
+    "courseCode": "AE755",
+    "courseName": "Optimization for Engineering Design"
+  },
+  {
+    "courseCode": "BB626",
+    "courseName": "Modeling Biological Systems and Process"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "courseCode": "AE223",
+    "courseName": "Thermodynamics and Propulsion"
+  },
+  {
+    "courseCode": "AE225",
+    "courseName": "Incompressible Fluid Mechanics"
+  },
+  {
+    "courseCode": "AE227",
+    "courseName": "Solid Mechanics"
+  },
+  {
+    "courseCode": "EE101",
+    "courseName": "Introduction to Electrical and Electronics Circuits"
+  },
+  {
+    "courseCode": "EP207",
+    "courseName": "Introduction to Special Theory of Relativity"
+  },
+  {
+    "courseCode": "HS101",
+    "courseName": "Economics"
+  },
+  {
+    "courseCode": "MA207",
+    "courseName": "Differential Equations II"
+  },
+  {
+    "courseCode": "MG401",
+    "courseName": "Marketing Management"
+  }
+]

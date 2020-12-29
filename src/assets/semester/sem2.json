@@ -1,0 +1,35 @@
+[
+  { "courseCode": "AE102", "courseName": "Data Analysis and Interpretation" },
+  {
+    "courseCode": "AE152",
+    "courseName": "Introduction to Aerospace Engineering"
+  },
+  {
+    "courseCode": "CS101",
+    "courseName": "Computer Programming and Utilization"
+  },
+  {
+    "courseCode": "MA106",
+    "courseName": "Linear Algebra"
+  },
+  {
+    "courseCode": "MA108",
+    "courseName": "Differential Equations"
+  },
+  {
+    "courseCode": "ME113",
+    "courseName": "Workshop Practice"
+  },
+  {
+    "courseCode": "NOCS02",
+    "courseName": "NCC/NSS/NSO"
+  },
+  {
+    "courseCode": "PH108",
+    "courseName": "Basics of Electricity & Magnetism"
+  },
+  {
+    "courseCode": "PH117",
+    "courseName": "Physics Lab"
+  }
+]

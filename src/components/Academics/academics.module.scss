@@ -1,0 +1,85 @@
+@import "../../variables.scss";
+
+.container {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  min-height: 728px;
+  min-width: 1005px;
+  padding: 20px;
+  background-color: $lightblue;
+  overflow: auto;
+
+  .education {
+    margin: 20px 0;
+    padding: 5px 20px;
+    border-radius: 6px;
+    background-color: $purple;
+    color: $white;
+    font-family: $fontHeading;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .education:first-child {
+    margin-top: 0;
+  }
+
+  .toggleBar {
+    height: 48px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin: 20px 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      width: 100%;
+      margin: 0 20px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      font-family: $fontHeading;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: $grey;
+
+      .placeholder {
+        font-family: $fontHeading;
+        font-size: 12px;
+        font-weight: normal;
+        text-align: center;
+        color: $grey;
+      }
+    }
+
+    .toggleButtons {
+      margin: 0 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .iconArrow {
+        background-color: $purple;
+        border-radius: 6px;
+        padding: 1px 1px 2px 1px;
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  .tableContainer {
+    margin: 20px 20px;
+    width: calc(100% - 40px);
+    overflow: auto;
+  }
+}
+
+.containerDark {
+}

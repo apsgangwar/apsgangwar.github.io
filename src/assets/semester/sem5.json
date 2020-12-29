@@ -1,0 +1,13 @@
+[
+  { "courseCode": "AE308", "courseName": "Control Theory" },
+  { "courseCode": "AE314", "courseName": "Aircraft Structures Laboratory" },
+  { "courseCode": "AE326", "courseName": "Vibrations and Structural Dynamics" },
+  { "courseCode": "AE330", "courseName": "Aerospace Propulsion" },
+  { "courseCode": "AE333", "courseName": "Aerodynamics" },
+  {
+    "courseCode": "CS663",
+    "courseName": "Fundamentals of Digital Image Processing"
+  },
+  { "courseCode": "HS307", "courseName": "Sociology" },
+  { "courseCode": "MG403", "courseName": "Accounting and Finance" }
+]

@@ -1,0 +1,68 @@
+@import "../../variables.scss";
+
+.container {
+  overflow: auto;
+  display: inline-block;
+  min-width: 100%;
+
+  .table {
+    font-size: 12px;
+    font-family: "Trebuchet MS", sans-serif;
+    width: 100%;
+
+    .singleRow {
+      .eachData {
+        background-color: $dullblue;
+        margin: 0px 20px;
+        color: $grey;
+        float: left;
+        width: calc(50% - 40px);
+        border-bottom: 1px solid $white;
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+        p {
+          height: 12px;
+          margin: 0;
+          white-space: nowrap;
+          padding: 8px 16px;
+          color: $grey;
+        }
+
+        .code {
+          width: 20%;
+          text-align: end;
+          border-right: 1px solid $white;
+        }
+        .course {
+          width: 80%;
+          text-align: start;
+        }
+      }
+      .eachData:last-child {
+        border-bottom: 1px solid $dullblue;
+      }
+      .eachData:nth-last-child(2) {
+        border-bottom: 1px solid $dullblue;
+      }
+    }
+  }
+}
+
+.containerDark {
+  .table {
+    td {
+      color: $grey;
+    }
+
+    tr {
+      color: $grey;
+    }
+
+    tbody {
+      background-color: $dullblue;
+    }
+  }
+}

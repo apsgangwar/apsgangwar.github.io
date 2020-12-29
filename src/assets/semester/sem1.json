@@ -1,0 +1,34 @@
+[
+  {
+    "courseCode": "BB101",
+    "courseName": "Biology"
+  },
+  {
+    "courseCode": "CH105",
+    "courseName": "Organic & Inorganic Chemistry"
+  },
+  {
+    "courseCode": "CH107",
+    "courseName": "Physical Chemistry"
+  },
+  {
+    "courseCode": "CH117",
+    "courseName": "Chemistry Lab"
+  },
+  {
+    "courseCode": "MA105",
+    "courseName": "Calculus"
+  },
+  {
+    "courseCode": "ME119",
+    "courseName": "Engineering Graphics & Drawing"
+  },
+  {
+    "courseCode": "NOCS01",
+    "courseName": "NCC/NSS/NSO"
+  },
+  {
+    "courseCode": "PH107",
+    "courseName": "Quantum Physics and Application"
+  }
+]

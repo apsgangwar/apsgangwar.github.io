@@ -1,0 +1,12 @@
+[
+  { "courseCode": "AE407", "courseName": "Modelling and Simulation" },
+  { "courseCode": "AE410", "courseName": "Navigation and Guidance" },
+  { "courseCode": "AE484", "courseName": "Finite Element Method" },
+  { "courseCode": "AE624", "courseName": "Hypersonic Flow Theory" },
+  {
+    "courseCode": "ES200",
+    "courseName": "Environmental Studies: Science and Engineering"
+  },
+  { "courseCode": "HS200", "courseName": "Environmental Studies" },
+  { "courseCode": "MG407", "courseName": "Strategic Management" }
+]

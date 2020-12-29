@@ -3,9 +3,9 @@ import * as cx from "classnames";
 
 import myIcon from "../../assets/meMain.jpeg";
 
-import * as s from "./homePage.module.scss";
+import * as s from "./projects.module.scss";
 
-class HomePage extends Component {
+class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -42,4 +42,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default Projects;

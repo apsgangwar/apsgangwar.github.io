@@ -1,0 +1,9 @@
+[
+  { "courseCode": "AE234", "courseName": "Aircraft Propulsion" },
+  { "courseCode": "AE236", "courseName": "Compressible Fluid Mechanics" },
+  { "courseCode": "AE238", "courseName": "Aerospace Structural Mechanics" },
+  { "courseCode": "AE240", "courseName": "Spaceflight Mechanics" },
+  { "courseCode": "AE242", "courseName": "Aerospace Measurements Laboratory" },
+  { "courseCode": "CS213", "courseName": "Data Structures and Algorithms" },
+  { "courseCode": "MA214", "courseName": "Introduction to Numerical Analysis" }
+]
