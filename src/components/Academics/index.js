@@ -55,7 +55,7 @@ class Academics extends Component {
     return (
       <>
         <div className={ContainerStyles}>
-          <div className={s.education}>High School (HSC)</div>
+          <div className={s.education}>SSC (CLASS - X)</div>
           <div className={s.toggleBar}>
             <div className={s.title}>
               <div>C. P. Vidya Niketan, Farrukhabad</div>
@@ -66,7 +66,7 @@ class Academics extends Component {
             </div>
           </div>
 
-          <div className={s.education}>Intermediate (10+2)</div>
+          <div className={s.education}>HSC (CLASS - XII)</div>
           <div className={s.toggleBar}>
             <div className={s.title}>
               <div>C. P. Vidya Niketan, Farrukhabad</div>
@@ -80,7 +80,7 @@ class Academics extends Component {
           <div className={s.education}>Graduation</div>
           <div className={s.toggleBar}>
             <div className={s.title}>
-              <div>IIT Bombay, Mumbai</div>
+              <div>Indian Institute of Technology (IIT) Bombay, Mumbai</div>
               <div className={s.placeholder}>
                 (Bachelor of Technology in Aerospace Engineering)
               </div>

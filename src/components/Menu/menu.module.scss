@@ -1,0 +1,106 @@
+@import "../../assets/css/variables.scss";
+
+.container {
+  // height: 100%;
+  width: 291px;
+  background-color: $lightblue;
+  // overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .nameDiv {
+    width: calc(100% - 40px);
+    height: 200px;
+    padding: 20px;
+    border-bottom: 1px solid $borderlite;
+    // background-color: $lightblue;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    .icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      border: solid 2px $purple;
+    }
+
+    p {
+      margin-top: 24px;
+      height: 76px;
+      padding: 12px 0 12px 0;
+      background-color: $purple;
+      border-radius: 6px;
+
+      color: $white;
+      font-family: "Nunito", sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  .optionsDiv {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    .options {
+      padding: 0.75rem 0;
+      margin: 0.25rem 0;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      text-align: center;
+      color: $menu-txt;
+    }
+
+    .options:hover,
+    .optionsSelected {
+      // background-color: $darkblue;
+      color: $darkblue;
+      font-size: 1.25rem;
+      border-radius: 6px;
+    }
+  }
+
+  .footerDiv {
+    width: calc(100% - 2rem);
+    height: 3.5rem;
+    padding: 1rem;
+    background-color: $darkblue;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin: 0 0 0.5rem 0;
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: center;
+      color: $white;
+    }
+
+    .socialIconContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .socialIcon {
+        padding: 0 1.25rem;
+        font-size: 1.5rem;
+        color: $menu-txt;
+      }
+
+      .socialIcon:hover {
+        color: $white;
+      }
+    }
+  }
+}

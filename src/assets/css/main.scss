@@ -1,0 +1,54 @@
+@import "./variables.scss";
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue";
+  color: $white;
+  background-color: $lightblue;
+  min-width: 320px;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.mon {
+}
+
+a,
+button {
+  &:hover,
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.owl-carousel {
+  img {
+    width: auto;
+    display: inline-block;
+  }
+}

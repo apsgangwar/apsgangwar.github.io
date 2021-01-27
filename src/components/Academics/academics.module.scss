@@ -1,12 +1,12 @@
-@import "../../variables.scss";
+@import "../../assets/css/variables.scss";
 
 .container {
   width: calc(100% - 40px);
   height: calc(100% - 40px);
-  min-height: 728px;
-  min-width: 1005px;
+  // min-height: 728px;
+  // min-width: 1005px;
   padding: 20px;
-  background-color: $lightblue;
+  // background-color: $lightblue;
   overflow: auto;
 
   .education {

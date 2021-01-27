@@ -1,0 +1,40 @@
+@import "../../assets/css/variables.scss";
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .headerContainer {
+    z-index: 5;
+  }
+
+  .mainContainer {
+    z-index: 2;
+    display: flex;
+    margin-top: 100px;
+    min-height: 432px;
+    max-height: calc(100vh - 100px);
+
+    .menuContainer {
+      display: flex;
+    }
+
+    @media (max-width: 990px) {
+      .menuContainer {
+        display: none;
+      }
+    }
+
+    .pageContainer {
+      height: inherit;
+      min-height: calc(100vh - 100px);
+      min-width: 100vw;
+    }
+    @media (min-width: 991px) {
+      .pageContainer {
+        min-width: calc(100vw - 291px);
+      }
+    }
+  }
+}
