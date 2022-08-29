@@ -4,10 +4,12 @@ import "./index.css";
 import App from "./components/App";
 import CommingSoon from "./components/ComingSoon";
 import reportWebVitals from "./reportWebVitals";
+import Resume from "./components/Resume2";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Resume />
     {/* <CommingSoon /> */}
   </React.StrictMode>,
   document.getElementById("root")

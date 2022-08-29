@@ -1,0 +1,145 @@
+.container {
+  // 210 x 297 mm
+  --ratio: 4.5;
+  // --ratio: calc(100vw / 210px)
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100%;
+  background-color: lightblue;
+  padding: 100px 0;
+
+  .page {
+    width: calc(210px * var(--ratio));
+    height: calc(297px * var(--ratio));
+    // width: calc(100vw);
+    // height: calc(100vw * calc(297 / 210));
+    background-color: white;
+    padding: 40px;
+
+    display: flex;
+
+    .left {
+      width: 70%;
+      height: 100%;
+      // background-color: red;
+      display: flex;
+      flex-direction: column;
+      padding-right: 20px;
+      // border: 1px solid green;
+
+      .heading {
+        font-family: Georgia;
+        font-size: 40px;
+        // color: lightseagreen;
+        margin: 0;
+        margin-top: 10px;
+      }
+    }
+    .right {
+      width: 30%;
+      height: 100%;
+      // background-color: yellow;
+      display: flex;
+      flex-direction: column;
+      // padding: 10px;
+      padding-left: 20px;
+      // padding-right: 0;
+
+      .pic {
+        width: 160px;
+        align-self: center;
+        border-radius: 50%;
+        border: 4px solid lightseagreen;
+      }
+
+      .contact {
+        margin-top: 20px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 10px 0;
+
+        .socialIcon {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: flex-end;
+
+          span {
+            min-width: 16px;
+            height: 16px;
+            font-size: 14px;
+            text-align: center;
+            color: lightseagreen;
+          }
+          p {
+            margin: 0;
+            padding: 2px 0;
+            margin-left: 10px;
+            font-size: 14px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .tab {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .main {
+      font-family: "Helvetica Neue";
+      font-size: 14px;
+      font-weight: 900;
+      padding: 6px 0;
+      border-bottom: 1px solid lightseagreen;
+      border-top: 1px solid lightseagreen;
+      color: lightseagreen;
+    }
+    .heading1 {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid grey;
+
+      span {
+        font-size: 16px;
+      }
+
+      .cname {
+        font-weight: 700;
+      }
+      .crole {
+        font-weight: 300;
+        font-style: italic;
+      }
+      .cdate {
+      }
+    }
+    .heading2 {
+      font-weight: 300;
+      font-style: italic;
+      font-size: 14px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+    }
+    .para {
+      li {
+        font-family: "Helvetica";
+        font-size: 16px;
+        font-weight: 300;
+        // letter-spacing: 0.2px;
+        span {
+          font-weight: 400;
+          font-family: "Helvetica";
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
