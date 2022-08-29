@@ -1,18 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./components/App";
-import CommingSoon from "./components/ComingSoon";
-import reportWebVitals from "./reportWebVitals";
-import Resume from "./components/Resume2";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './components/App';
+import CommingSoon from './components/ComingSoon';
+import reportWebVitals from './reportWebVitals';
+import Resume from './components/Resume2';
+import OnlyPage from './components/OnlyPage';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Resume />
+    {/* <Resume /> */}
     {/* <CommingSoon /> */}
+    <OnlyPage />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
